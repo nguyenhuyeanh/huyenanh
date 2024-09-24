@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới thiệu sản phẩm</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 2em 0;
+        }
+        section {
+            padding: 2em;
+        }
+        .features ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .features li {
+            padding: 0.5em 0;
+        }
+        .pricing table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 2em 0;
+        }
+        .pricing th, .pricing td {
+            border: 1px solid #ddd;
+            padding: 0.75em;
+            text-align: center;
+        }
+        .pricing th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        .contact form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact input, .contact textarea {
+            margin: 0.5em 0;
+            padding: 0.75em;
+            font-size: 1em;
+            border: 1px solid #ddd;
+        }
+        .contact button {
+            padding: 1em;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            font-size: 1.2em;
+            cursor: pointer;
+        }
+        .contact button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Chào mừng đến với Sản Phẩm Quản Lí Bán Hàng</h1>
+    <p>Sản phẩm tối ưu cho nhu cầu của bạn</p>
+</header>
+
+<section class="description">
+    <h2>Mô tả sản phẩm</h2>
+    <figure>
+        <img src="https://upos.vn/uploads/files/files/1911/App-quan-ly-ban-hang-online-mien-phi-UPOS.jpg" alt="Hình ảnh sản phẩm" style="width:100%; max-width:600px;">
+        <figcaption>Hình ảnh minh họa cho sản phẩm ứng dụng quản lí bán hàng</figcaption>
+    </figure>
+    <p>Sản phẩm ứng dụng quản lí bán hàng là một giải pháp tiên tiến, cung cấp đầy đủ các tính năng cần thiết cho nhu cầu của bạn, giúp bạn tiết kiệm thời gian và công sức.</p>
+</section>
+
+<section class="features">
+    <h2>Tính năng nổi bật</h2>
+    <ul>
+        <li>Giao diện dễ sử dụng</li>
+        <li>Tích hợp đa nền tảng</li>
+        <li>Bảo mật cao</li>
+        <li>Hỗ trợ 24/7</li>
+    </ul>
+</section>
+
+<section class="pricing">
+    <h2>Bảng giá</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Gói</th>
+                <th>Giá</th>
+                <th>Tính năng</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Gói Cơ Bản</td>
+                <td>500,000 VND</td>
+                <td>Sử dụng cho cá nhân, không giới hạn tính năng cơ bản</td>
+            </tr>
+            <tr>
+                <td>Gói Nâng Cao</td>
+                <td>1,500,000 VND</td>
+                <td>Tích hợp thêm tính năng nâng cao và hỗ trợ kỹ thuật</td>
+            </tr>
+            <tr>
+                <td>Gói Doanh Nghiệp</td>
+                <td>5,000,000 VND</td>
+                <td>Dành cho doanh nghiệp, không giới hạn người dùng</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+<section class="contact">
+    <h2>Liên hệ với chúng tôi</h2>
+    <form>
+        <label for="name">Tên của bạn:</label>
+        <input type="text" id="name" name="name" placeholder="Nhập tên của bạn" required>
+        
+        <label for="email">Email của bạn:</label>
+        <input type="email" id="email" name="email" placeholder="Nhập email của bạn" required>
+        
+        <label for="message">Tin nhắn:</label>
+        <textarea id="message" name="message" rows="5" placeholder="Viết tin nhắn của bạn" required></textarea>
+        
+        <button type="submit">Gửi tin nhắn</button>
+    </form>
+</section>
+
+</body>
+</html>

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Blog Cá Nhân</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+        }
+        .post {
+            margin-bottom: 40px;
+        }
+        .post h2 {
+            margin-bottom: 5px;
+        }
+        .post small {
+            display: block;
+            color: gray;
+            margin-bottom: 10px;
+        }
+        .post-content {
+            margin-bottom: 20px;
+        }
+        .comments {
+            margin-top: 20px;
+            background: #f9f9f9;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        .comments h3 {
+            margin-top: 0;
+        }
+        blockquote {
+            margin: 10px 0;
+            padding-left: 20px;
+            border-left: 3px solid #ccc;
+            color: #555;
+        }
+        form {
+            margin-top: 20px;
+        }
+        input[type="text"], textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        input[type="submit"] {
+            padding: 10px 15px;
+            border: none;
+            background-color: #5cb85c;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        input[type="submit"]:hover {
+            background-color: #4cae4c;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Trang Blog Cá Nhân</h1>
+
+        <!-- Bài viết 1 -->
+        <div class="post">
+            <h2>Bài viết đầu tiên</h2>
+            <small>Ngày đăng: 24/09/2024 - Tác giả: Nguyễn Huyền Anh</small>
+            <p class="post-content">
+               một buổi sáng thức dậy thấy bản làng nhỏ xa xôi ngập nắng, lòng tràn đầy niềm vui.Thì ra hạnh phúc chỉ đơn giản như thế !
+            </p>
+
+            <div class="comments">
+                <h3>Bình luận</h3>
+                <blockquote>
+                    <strong>Hải:</strong> Bài viết này rất thú vị, cảm ơn tác giả!
+                </blockquote>
+                <blockquote>
+                    <strong>Lan:</strong> Tôi đồng ý với những gì bạn chia sẻ. Hy vọng có nhiều bài viết hơn.
+                </blockquote>
+
+                <!-- Form để người dùng nhập bình luận -->
+                <form action="#" method="post">
+                    <label for="name">Tên của bạn:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="comment">Bình luận của bạn:</label>
+                    <textarea id="comment" name="comment" rows="4" required></textarea>
+
+                    <input type="submit" value="Gửi bình luận">
+                </form>
+            </div>
+        </div>
+
+        <!-- Bài viết 2 -->
+        <div class="post">
+            <h2>Bài viết thứ hai</h2>
+            <small>Ngày đăng: 22/09/2024 - Tác giả: Nguyễn Huyền Anh</small>
+            <p class="post-content">
+               Chúng ta luôn ao ước về nhứng điều mà bản thân không có. Vậy nên sự "bình thường" của bạn biết đâu cũng là ước mơ của ai đó ngoài kia thì sao ?
+            </p>
+
+            <div class="comments">
+                <h3>Bình luận</h3>
+                <blockquote>
+                    <strong>Minh:</strong> Bài viết rất hay, tôi học được nhiều điều từ đây.
+                </blockquote>
+
+                <!-- Form để người dùng nhập bình luận -->
+                <form action="#" method="post">
+                    <label for="name2">Tên của bạn:</label>
+                    <input type="text" id="name2" name="name" required>
+
+                    <label for="comment2">Bình luận của bạn:</label>
+                    <textarea id="comment2" name="comment" rows="4" required></textarea>
+
+                    <input type="submit" value="Gửi bình luận">
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
